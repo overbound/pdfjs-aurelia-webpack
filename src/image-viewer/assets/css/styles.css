@@ -1,0 +1,21 @@
+﻿html {
+   overflow:hidden;
+}
+.pdf-viewer {
+    display: inline-block;
+    position:relative;
+    top: 48px;
+    overflow: scroll;
+    width: 100vw;
+    height: 92vh;
+}
+
+.pdf-controls {
+    float: right;
+    vertical-align: top;
+}
+
+.page-content {
+    padding: 0;
+    transition: 0;
+}
